@@ -7,11 +7,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 
 	"github.com/pkg/errors"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/ragedisco/serialization"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/ragedisco/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

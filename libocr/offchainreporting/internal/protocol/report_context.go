@@ -3,7 +3,7 @@ package protocol
 import (
 	"encoding/binary"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 // DomainSeparationTag consists of:

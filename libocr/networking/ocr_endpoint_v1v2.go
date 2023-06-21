@@ -8,9 +8,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 var _ commontypes.BinaryNetworkEndpoint = &ocrEndpointV1V2{}

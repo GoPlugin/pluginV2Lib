@@ -14,8 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/Goplugin/PluginV2Lib/libocr/gethwrappers2/ocr2titlerequest"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/gethwrappers2/ocr2titlerequest"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 // Transactions that are buried confirmationDepth blocks deep in the chain are

@@ -7,8 +7,8 @@ import (
 	p2pnetwork "github.com/libp2p/go-libp2p-core/network"
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
 	"golang.org/x/time/rate"
 )
 

@@ -2,9 +2,9 @@
 package evmutil
 
 import (
-	"github.com/Goplugin/PluginV2Lib/libocr/gethwrappers2/ocr2aggregator"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/chains/evmutil"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/gethwrappers2/ocr2aggregator"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/chains/evmutil"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 func SplitSignature(sig []byte) (r, s [32]byte, v byte, err error) {

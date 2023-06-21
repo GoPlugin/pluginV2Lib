@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/Goplugin/PluginV2Lib/libocr/gethwrappers/offchainaggregator"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/gethwrappers/offchainaggregator"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 // OracleIdentity is identical to the internal type in package config.

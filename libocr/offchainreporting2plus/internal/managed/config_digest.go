@@ -3,7 +3,7 @@ package managed
 import (
 	"fmt"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 // Convenience wrapper around OffchainConfigDigester

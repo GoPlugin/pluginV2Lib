@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/minheap"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/minheap"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 type itemWithDeadline[T any] struct {

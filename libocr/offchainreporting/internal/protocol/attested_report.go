@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/signature"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/signature"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"

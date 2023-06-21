@@ -1,7 +1,7 @@
 package ragedisco
 
 import (
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 )
 
 type group struct {

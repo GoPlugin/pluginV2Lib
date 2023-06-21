@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 // PublicConfig is the configuration disseminated through the smart contract

@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/ocr3types"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/ocr3types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 // RunOracle runs one oracle instance of the offchain reporting protocol and manages

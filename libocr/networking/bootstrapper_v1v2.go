@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
 	"go.uber.org/multierr"
 )
 

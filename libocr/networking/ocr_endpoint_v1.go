@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p-core/peerstore"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 	"go.uber.org/multierr"
 	"golang.org/x/time/rate"
 
@@ -20,11 +20,11 @@ import (
 	swarm "github.com/libp2p/go-libp2p-swarm"
 	rhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 	"github.com/pkg/errors"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	dhtrouter "github.com/Goplugin/PluginV2Lib/libocr/networking/dht-router"
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/knockingtls"
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/wire"
-	ocr1types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	dhtrouter "github.com/GoPlugin/pluginV2Lib/libocr/networking/dht-router"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/knockingtls"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/wire"
+	ocr1types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 var (

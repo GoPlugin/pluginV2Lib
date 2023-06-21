@@ -7,13 +7,13 @@ import (
 
 	"go.uber.org/multierr"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	ocr2types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p"
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	ocr2types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
 )
 
 var (

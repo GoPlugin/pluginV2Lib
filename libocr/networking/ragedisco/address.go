@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/ragedisco/autodetect"
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/ragedisco/autodetect"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 )
 
 type autodetector func() ([]netip.Addr, []netip.Addr, error)

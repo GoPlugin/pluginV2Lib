@@ -1,8 +1,8 @@
 package protocol
 
 import (
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/ocr3types"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/ocr3types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 type AttestedReportMany[RI any] struct {

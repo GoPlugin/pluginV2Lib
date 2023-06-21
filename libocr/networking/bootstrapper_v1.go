@@ -8,10 +8,10 @@ import (
 	"go.uber.org/multierr"
 
 	p2ppeer "github.com/libp2p/go-libp2p-core/peer"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	dhtrouter "github.com/Goplugin/PluginV2Lib/libocr/networking/dht-router"
-	ocr1types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	dhtrouter "github.com/GoPlugin/pluginV2Lib/libocr/networking/dht-router"
+	ocr1types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 var (

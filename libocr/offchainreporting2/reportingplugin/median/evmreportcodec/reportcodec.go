@@ -6,8 +6,8 @@ import (
 	"sort"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2/reportingplugin/median"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2/reportingplugin/median"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 var reportTypes = getReportTypes()

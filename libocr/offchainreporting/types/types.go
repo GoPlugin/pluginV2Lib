@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/crypto/curve25519"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 )
 
 type ConfigDigest [16]byte

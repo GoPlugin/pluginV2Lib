@@ -1,6 +1,6 @@
 package ragedisco
 
-import ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+import ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 
 type connectivityMsgType int
 

@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 	"golang.org/x/time/rate"
 )
 

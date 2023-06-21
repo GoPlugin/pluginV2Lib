@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	nettypes "github.com/Goplugin/PluginV2Lib/libocr/networking/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	nettypes "github.com/GoPlugin/pluginV2Lib/libocr/networking/types"
 	"go.uber.org/multierr"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/configdigesthelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	ocr2types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/configdigesthelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	ocr2types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 
 	p2pcrypto "github.com/libp2p/go-libp2p-core/crypto"
 	p2ppeerstore "github.com/libp2p/go-libp2p-core/peerstore"

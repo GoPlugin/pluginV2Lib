@@ -6,12 +6,12 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/ragedisco"
-	ocr2types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p"
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/ragedisco"
+	ocr2types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 	"go.uber.org/multierr"
 )
 

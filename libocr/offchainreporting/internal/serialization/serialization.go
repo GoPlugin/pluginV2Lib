@@ -1,10 +1,10 @@
 package serialization
 
 import (
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/protocol"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/protocol"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/serialization/protobuf"
 
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"

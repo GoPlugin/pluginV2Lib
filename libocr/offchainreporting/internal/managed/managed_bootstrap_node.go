@@ -3,11 +3,11 @@ package managed
 import (
 	"context"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 // RunManagedBootstrapNode runs a "managed" bootstrap node. It handles

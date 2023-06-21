@@ -1,7 +1,7 @@
 // alias for offchainreporting2plus/types
 package types
 
-import "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+import "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 
 type ConfigDigestPrefix = types.ConfigDigestPrefix
 

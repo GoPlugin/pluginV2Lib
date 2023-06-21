@@ -1,8 +1,8 @@
 package ragedisco
 
 import (
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 )
 
 func equalAddrs(a []ragetypes.Address, b []ragetypes.Address) bool {

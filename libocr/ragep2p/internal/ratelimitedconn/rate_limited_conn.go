@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 )
 
 type Limiter interface {

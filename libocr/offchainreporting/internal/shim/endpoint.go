@@ -6,13 +6,13 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/protocol"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/serialization"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/serialization/protobuf"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/protocol"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/serialization"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/serialization/protobuf"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 type SerializingEndpoint struct {

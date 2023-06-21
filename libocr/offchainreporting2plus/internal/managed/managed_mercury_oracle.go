@@ -3,16 +3,16 @@ package managed
 import (
 	"context"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/mercuryshim"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/protocol"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/serialization"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/shim"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/ocr3types"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/mercuryshim"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/protocol"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/serialization"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/shim"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/ocr3types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 // RunManagedMercuryOracle runs a "managed" version of protocol.RunOracle. It handles

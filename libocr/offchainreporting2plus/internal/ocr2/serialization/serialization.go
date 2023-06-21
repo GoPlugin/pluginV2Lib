@@ -3,9 +3,9 @@ package serialization
 import (
 	"fmt"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/ocr2/protocol"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/ocr2/protocol"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 
 	"google.golang.org/protobuf/proto"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

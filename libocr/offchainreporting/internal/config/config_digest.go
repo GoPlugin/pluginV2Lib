@@ -8,9 +8,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/gethwrappers/exposedoffchainaggregator"
+	"github.com/GoPlugin/pluginV2Lib/libocr/gethwrappers/exposedoffchainaggregator"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 func makeConfigDigestArgs() abi.Arguments {

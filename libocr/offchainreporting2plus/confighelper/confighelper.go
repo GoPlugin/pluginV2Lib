@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2/reportingplugin/median"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr2config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2/reportingplugin/median"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr2config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 // OracleIdentity is identical to the internal type in package config.

@@ -14,16 +14,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/msgbuf"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/msgbuf"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/knock"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/mtls"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/ratelimit"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/ratelimitedconn"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/knock"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/mtls"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/ratelimit"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/ratelimitedconn"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 // Maximum number of streams with another peer that can be opened on a host

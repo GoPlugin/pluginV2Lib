@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	ocr1types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
-	ocr2types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	ocr1types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
+	ocr2types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 func OCR1ToOCR2(configDigest ocr1types.ConfigDigest) ocr2types.ConfigDigest {

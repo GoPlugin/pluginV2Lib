@@ -10,13 +10,13 @@ import (
 
 	"go.uber.org/multierr"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	nettypes "github.com/Goplugin/PluginV2Lib/libocr/networking/types"
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	nettypes "github.com/GoPlugin/pluginV2Lib/libocr/networking/types"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 type incomingMessage struct {

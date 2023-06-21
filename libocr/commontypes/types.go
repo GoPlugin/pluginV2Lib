@@ -6,7 +6,7 @@ import (
 	"net"
 	"strings"
 
-	ragetypes "github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	ragetypes "github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 )
 
 // OracleID is an index over the oracles, used as a succinct attribution to an

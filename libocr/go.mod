@@ -1,4 +1,4 @@
-module github.com/Goplugin/PluginV2Lib/libocr
+module github.com/GoPlugin/pluginV2Lib/libocr
 
 go 1.20
 

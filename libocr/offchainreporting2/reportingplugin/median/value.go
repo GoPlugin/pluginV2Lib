@@ -3,7 +3,7 @@ package median
 import (
 	"math/big"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/bigbigendian"
+	"github.com/GoPlugin/pluginV2Lib/libocr/bigbigendian"
 )
 
 var i = big.NewInt

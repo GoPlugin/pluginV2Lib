@@ -3,7 +3,7 @@ package protocol
 import (
 	"context"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 type Database interface {

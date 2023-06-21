@@ -3,10 +3,10 @@ package netconfig
 import (
 	"fmt"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr2config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr2config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 type NetConfig struct {

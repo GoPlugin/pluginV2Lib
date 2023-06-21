@@ -3,7 +3,7 @@ package protocol
 import (
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 )
 
 const ReportingPluginTimeoutWarningGracePeriod = 100 * time.Millisecond

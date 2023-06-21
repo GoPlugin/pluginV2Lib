@@ -1,9 +1,9 @@
 package networking
 
 import (
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/configdigesthelper"
-	ocr1types "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/configdigesthelper"
+	ocr1types "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 )
 
 type ocr1BinaryNetworkEndpointFactory struct {

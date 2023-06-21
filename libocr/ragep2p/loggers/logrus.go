@@ -2,7 +2,7 @@ package loggers
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 )
 
 var _ commontypes.Logger = LogrusLogger{}

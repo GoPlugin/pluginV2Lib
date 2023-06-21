@@ -4,8 +4,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/msgbuf"
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/internal/ratelimit"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/msgbuf"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/internal/ratelimit"
 )
 
 type shouldPushResult int

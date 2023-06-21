@@ -3,7 +3,7 @@ package loghelper
 import (
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 type IfNotStopped struct {

@@ -1,6 +1,6 @@
 package protocol
 
-import "github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+import "github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 
 // Used only for testing
 type XXXUnknownMessageType struct{}

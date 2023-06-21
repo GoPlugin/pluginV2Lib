@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/protocol/pool"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/ocr3types"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/config/ocr3config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/internal/ocr3/protocol/pool"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/ocr3types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 const futureMessageBufferSize = 10 // big enough for a couple of full rounds of repgen protocol

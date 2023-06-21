@@ -4,7 +4,7 @@ import (
 	"crypto/ed25519"
 	"fmt"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/ragep2p/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/ragep2p/types"
 )
 
 const domainSeparator = "ragep2p 1.0.0 knock knock"

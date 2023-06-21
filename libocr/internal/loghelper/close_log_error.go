@@ -3,7 +3,7 @@ package loghelper
 import (
 	"io"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 )
 
 // Closes closer. If an error occurs, it is logged at WARN level together with

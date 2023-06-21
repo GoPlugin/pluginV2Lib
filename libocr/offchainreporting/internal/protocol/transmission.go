@@ -9,13 +9,13 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
-	"github.com/Goplugin/PluginV2Lib/libocr/internal/loghelper"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/config"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
-	"github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
-	"github.com/Goplugin/PluginV2Lib/libocr/permutation"
-	"github.com/Goplugin/PluginV2Lib/libocr/subprocesses"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/internal/loghelper"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/config"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/internal/protocol/observation"
+	"github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
+	"github.com/GoPlugin/pluginV2Lib/libocr/permutation"
+	"github.com/GoPlugin/pluginV2Lib/libocr/subprocesses"
 )
 
 // TransmissionProtocol tracks the local oracle process's role in the transmission of a

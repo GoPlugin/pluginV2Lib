@@ -1,6 +1,6 @@
 package protocol //
 
-import "github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+import "github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 
 // EventToPacemaker is the interface used to pass in-process events to the
 // leader-election protocol.

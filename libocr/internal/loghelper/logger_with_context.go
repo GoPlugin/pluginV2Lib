@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Goplugin/PluginV2Lib/libocr/commontypes"
+	"github.com/GoPlugin/pluginV2Lib/libocr/commontypes"
 )
 
 type LoggerWithContext interface {

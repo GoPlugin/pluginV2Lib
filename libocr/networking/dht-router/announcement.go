@@ -9,7 +9,7 @@ import (
 
 	p2pcrypto "github.com/libp2p/go-libp2p-core/crypto"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/Goplugin/PluginV2Lib/libocr/networking/dht-router/serialization"
+	"github.com/GoPlugin/pluginV2Lib/libocr/networking/dht-router/serialization"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -1,6 +1,6 @@
 package managed
 
-import "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting/types"
+import "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting/types"
 
 var _ types.ConfigOverrider = ConfigOverriderWrapper{}
 

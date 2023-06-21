@@ -1,6 +1,6 @@
 package config
 
-import "github.com/Goplugin/PluginV2Lib/libocr/offchainreporting2plus/types"
+import "github.com/GoPlugin/pluginV2Lib/libocr/offchainreporting2plus/types"
 
 type OracleIdentity struct {
 	OffchainPublicKey types.OffchainPublicKey
